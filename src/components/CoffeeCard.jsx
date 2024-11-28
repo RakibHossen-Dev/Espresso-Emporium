@@ -46,9 +46,9 @@ const CoffeeCard = ({ coffee, setCoffees, coffees }) => {
     });
   };
   return (
-    <div className="flex justify-evenly items-center shadow-sm bg-[#ece8e2] p-3 rounded-md">
+    <div className="flex gap-2 justify-evenly items-center shadow-sm bg-[#ece8e2] p-3 rounded-md">
       <div>
-        <img src={photo} alt="" />
+        <img className=" md:w-auto w-32" src={photo} alt="" />
       </div>
       <div>
         <h3>

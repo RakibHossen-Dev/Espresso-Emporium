@@ -14,7 +14,7 @@ const Galary = () => {
       <h2 className="font-rancho text-3xl font-semibold text-[#331A15] text-center mb-5">
         Follow on Instagram
       </h2>
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-3">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-3 ">
         <img src={cup1} alt="" />
         <img src={cup2} alt="" />
         <img src={cup3} alt="" />

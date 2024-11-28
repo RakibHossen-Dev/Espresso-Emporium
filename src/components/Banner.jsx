@@ -11,7 +11,7 @@ const Banner = () => {
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div className="lg:w-1/2"></div>
-        <div className="flex flex-col items-start justify-start space-y-3 lg:w-1/2 ">
+        <div className="flex flex-col items-start justify-start space-y-3 w-11/12 mx-auto lg:w-1/2 ">
           <h1 className="text-white text-4xl font-rancho">
             Would you like a Cup of Delicious Coffee?{" "}
           </h1>
@@ -27,8 +27,8 @@ const Banner = () => {
         </div>
       </div>
       <div className=" bg-[#ECEAE3] py-5  ">
-        <div className="w-11/12 mx-auto grid grid-cols-4 gap-5">
-          <div className="flex flex-col gap-1">
+        <div className="w-11/12 mx-auto grid md:grid-cols-4 grid-cols-1  gap-5">
+          <div className="flex flex-col gap-1 md:justify-start justify-center md:items-start items-center md:text-start  text-center">
             <img className="w-20" src={icon1} alt="" />
             <h3 className="text-2xl font-semibold font-rancho text-[#331A15]">
               Awesome Aroma
@@ -37,14 +37,14 @@ const Banner = () => {
               You will definitely be a fan of the design & aroma of your coffee
             </p>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 md:justify-start justify-center md:items-start items-center md:text-start  text-center">
             <img className="w-20" src={icon2} alt="" />
             <h3 className="text-2xl font-semibold font-rancho text-[#331A15]">
               High Quality{" "}
             </h3>
             <p>We served the coffee to you maintaining the best quality </p>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 md:justify-start justify-center md:items-start items-center md:text-start  text-center">
             <img className="w-20" src={icon3} alt="" />
             <h3 className="text-2xl font-semibold font-rancho text-[#331A15]">
               Pure Grades
@@ -53,7 +53,7 @@ const Banner = () => {
               The coffee is made of the green coffee beans which you will love
             </p>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 md:justify-start justify-center md:items-start items-center md:text-start  text-center">
             <img className="w-20" src={icon4} alt="" />
             <h3 className="text-2xl font-semibold font-rancho text-[#331A15]">
               Proper Roasting

@@ -14,10 +14,10 @@ const Footer = () => {
   return (
     <div>
       <div
-        className="navbar bg-cover bg-center h-[500px]  "
+        className="navbar bg-cover bg-center mb-5 "
         style={{ backgroundImage: `url(${footerbg})` }}
       >
-        <div className="flex flex-col gap-5 lg:flex-row w-11/12 mx-auto">
+        <div className="flex flex-col gap-5 lg:flex-row w-11/12 mx-auto ">
           <div className="space-y-3 lg:w-1/2">
             <img className="w-24" src={footerlogo} alt="" />
             <h1 className="text-[#331A15] font-semibold text-3xl font-rancho">
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="space-y-3 lg:w-1/2">
+          <div className="space-y-3 lg:w-1/2  ">
             <h1 className="text-[#331A15] font-semibold text-3xl font-rancho">
               Connect with Us
             </h1>
@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" " style={{ backgroundImage: `url(${coppyRightImage})` }}>
+      <div className="" style={{ backgroundImage: `url(${coppyRightImage})` }}>
         <p className="text-white text-sm text-center py-4 ">
           Copyright Espresso Emporium ! All Rights Reserved
         </p>
